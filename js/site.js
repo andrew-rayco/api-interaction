@@ -1,7 +1,9 @@
 var btn = document.getElementById('btn');
 var proverb = document.getElementById('proverb');
 var translation = document.getElementById('translation');
+console.log(btn);
 proverb.innerHTML = '<p>Click the button to see a proverb</p>';
+
 
 btn.addEventListener('click', function() {
   var ourData;
