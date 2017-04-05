@@ -14,6 +14,6 @@ btn.addEventListener('click', function() {
   };
   ourRequest.send();
 
-  proverb.innerHTML = "Proverb: " + ourData.source;
-  translation.innerHTML = "Translation: " + ourData.translation;
+  proverb.innerHTML = ourData.source;
+  translation.innerHTML = ourData.translation;
 });

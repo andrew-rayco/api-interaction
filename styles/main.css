@@ -1,0 +1,57 @@
+/*
+DAVY'S GREY
+#595457
+
+ALABASTER
+#ECEBE4
+
+#709255
+russian green
+
+#355E3C
+hunter green
+
+#172815
+dark jungle green
+*/
+
+body {
+  margin: 0 auto;
+  background-color: #ecebe4;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+
+}
+
+h1 {
+font-family: "Open Sans", sans-serif;
+color: #709255;
+font-size: 40px;
+}
+
+#proverb {
+font-family: "Lora", serif;
+color: #355E3C;
+font-size: 24px;
+margin: 20px 0px;
+}
+
+#translation {
+font-family: "Lora", serif;
+color: #172815;
+font-size: 18px;
+margin: 20px 0px;
+}
+
+#btn {
+font-family: "Lora", serif;
+background-color: #172815;
+color: #ecebe4;
+border: none;
+border-radius: 15px;
+padding: 10px;
+}
